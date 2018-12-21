@@ -1,6 +1,6 @@
 package com.shophub2.bean;
 
-public class Usertranscation 
+public class UserTranscation 
 {
 	private long userId;
 	private long productId;
@@ -8,7 +8,7 @@ public class Usertranscation
 	private int quantity;
 	private double price;
 	private double total;
-	public Usertranscation(long userId, long productId, String productName,
+	public UserTranscation(long userId, long productId, String productName,
 			int quantity, double price, double total) {
 		super();
 		this.userId = userId;
