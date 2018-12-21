@@ -1,19 +1,21 @@
 package com.shophub2.dao;
 import java.util.List;
 
+import com.shophub2.bean.User;
+
 public class UserDao implements IUserDao {
 
-	public com.shophub2.bean.User get(long userId) {
+	public User get(long userId) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public List<com.shophub2.bean.User> getAll() {
+	public List<User> getAll() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public boolean add(com.shophub2.bean.User user) {
+	public boolean add(User user) {
 		// TODO Auto-generated method stub
 		return false;
 	}
@@ -23,7 +25,7 @@ public class UserDao implements IUserDao {
 		return false;
 	}
 
-	public boolean update(com.shophub2.bean.User user) {
+	public boolean update(User user) {
 		// TODO Auto-generated method stub
 		return false;
 	}
