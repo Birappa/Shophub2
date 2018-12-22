@@ -2,8 +2,10 @@ package com.shophub2.dao;
 
 import java.util.Map;
 
-import com.shophub2.bean.UserTransaction;
+import org.springframework.stereotype.Component;
 
+import com.shophub2.bean.UserTransaction;
+@Component
 public class CartDao implements ICartDao{
 
 	public UserTransaction get(long userId) {

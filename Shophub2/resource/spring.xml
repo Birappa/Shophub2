@@ -11,6 +11,14 @@
     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
     ">
     
-    <bean id="hi" class="com.shophub2.service.CartService"/>
+    
+    
+    <bean id="cart" class="com.shophub2.dao.CartDao" autowire="byType">
+    <!-- <property></property> -->
+    
+    </bean>
+    
+    
+    <bean id="cartservice" class="com.shophub2.service.CartService" autowire="byType"/>
     </beans>
     
