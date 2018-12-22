@@ -54,6 +54,12 @@ public class UserTransaction
 	public void setTotal(double total) {
 		this.total = total;
 	}
+	@Override
+	public String toString() {
+		return "UserTransaction [userId=" + userId + ", productId=" + productId
+				+ ", productName=" + productName + ", quantity=" + quantity
+				+ ", price=" + price + ", total=" + total + "]";
+	}
 	
 
 }
