@@ -3,6 +3,27 @@
   <groupId>Shophub2</groupId>
   <artifactId>Shophub2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+ <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.1.3.RELEASE</version>
+	</dependency>
+	
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>5.1.3.RELEASE</version>
+</dependency>
+  
+<!-- <dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc14</artifactId>
+    <version>10.2.0.4.0</version>
+</dependency> -->
+  
+  </dependencies>
   <build>
     <sourceDirectory>Shophub2/src/main/java</sourceDirectory>
     <testSourceDirectory>Shophub2/src/test/java</testSourceDirectory>

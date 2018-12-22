@@ -7,7 +7,7 @@ import com.shophub2.bean.User;
 
 
 public interface IUserDao {
-	public User get(long userId);
+	public String get(long userId);
 
 	public List<User> getAll();
 
